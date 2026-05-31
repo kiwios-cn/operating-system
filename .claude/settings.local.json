@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(unzip -q -o \"第二章处理器管理2024.pptx\" -d temp_pptx)",
+      "Bash(unzip -p \"2024电信本科生课程操作系统作业布置（明细图） \\(1\\).docx\" word/document.xml)",
+      "Bash(pdfinfo \"操作系统总复习.pdf\")",
+      "Bash(mdls -name kMDItemNumberOfPages \"操作系统总复习.pdf\")",
+      "Bash(textutil -convert txt \"2024电信本科生课程操作系统作业布置（明细图） \\(1\\).docx\" -output /tmp/homework.txt)",
+      "Read(//tmp/**)",
+      "Bash(python3 *)",
+      "Bash(awk '{print $5, $9}')",
+      "Bash(pdftotext /Users/fsr/Desktop/操作系统/操作系统总复习_详细版.pdf -)",
+      "Bash(awk '{print $9, $5}')",
+      "Bash(pdfinfo /Users/fsr/Desktop/操作系统/__TRACKED_VAR__)",
+      "Bash(python test_producer_consumer.py)",
+      "Bash(python *)",
+      "Bash(grep -E '\\\\.\\(txt|jpg\\)$')",
+      "Bash(git add *)"
+    ]
+  }
+}
